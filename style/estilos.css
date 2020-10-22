@@ -1,0 +1,54 @@
+#uno{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+/*ESTILOS MENU/*/
+
+.menuu {
+    position: fixed;
+    top:100;
+    background-color: white;
+    font-family: 'Aclonica', sans-serif;
+    font-size: .7rem;
+    width: 100%;
+    color: #7F06BD;
+}
+.menuu ul {
+    list-style-type: none; 
+    text-align: center;
+    font-size: 0;
+    color: #7F06BD;
+}
+.menuu > ul li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    background: white;
+}
+.menuu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: orange;
+}
+.menuu li:hover a, .menuu li a:focus {
+    background-color: #FFE4BE;
+    color: orangered;
+}
+
+.menuu li ul {
+    width: 0;
+    color: #ABF4F6;
+}
+.menuu li:hover ul, .menuu li:focus ul {
+    width: 100%;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    
+}
+.menu{
+    padding-top: 0;
+    margin top: 0;
+    color: #7F06BD;
+} 
